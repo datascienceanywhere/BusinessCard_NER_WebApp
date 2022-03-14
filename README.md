@@ -77,3 +77,5 @@ Finally, we will put all together and create document scanner app.
 Are you ready !!!
 
 Let start developing the Artificial Intelligence project.
+
+COURSE URL: https://www.udemy.com/course/business-card-reader-app/?referralCode=CBF4B439BDEF5F8AB0DB
