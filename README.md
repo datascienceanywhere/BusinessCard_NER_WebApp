@@ -5,6 +5,7 @@ In this course you will learn how to develop customized Named Entity Recognizer.
 To develop this project we will use two main technologies in data science are,
 
 - Document Scanner with Computer Vision
+
 ![3_1_promo](https://user-images.githubusercontent.com/75901421/158194968-7ab0823b-44de-4511-ac33-db3dd4463fcc.gif)
 - OCR & Named Entity Recognition (NER) with Natural Language Processing
 ![3_promo](https://user-images.githubusercontent.com/75901421/158195017-a5a1e35f-da3e-4e9a-ac04-125ed74ac6ba.gif)
