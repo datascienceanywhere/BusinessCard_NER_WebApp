@@ -4,8 +4,13 @@ In this course you will learn how to develop customized Named Entity Recognizer.
 
 To develop this project we will use two main technologies in data science are,
 
-- Computer Vision
-- Natural Language Processing
+- Document Scanner with Computer Vision
+![3_1_promo](https://user-images.githubusercontent.com/75901421/158194968-7ab0823b-44de-4511-ac33-db3dd4463fcc.gif)
+- OCR & Named Entity Recognition (NER) with Natural Language Processing
+![3_promo](https://user-images.githubusercontent.com/75901421/158195017-a5a1e35f-da3e-4e9a-ac04-125ed74ac6ba.gif)
+
+COURSE URL: https://www.udemy.com/course/business-card-reader-app/?referralCode=CBF4B439BDEF5F8AB0DB
+
 
 In Computer Vision module, we will scan the document, identify the location of text and finally extract text from the image. Then in Natural language processing, we will extract the entitles from the text and do necessary text cleaning and parse the entities form the text.
 
@@ -25,52 +30,36 @@ Python Libraries used in Natural Language Processing
 As are combining two major technologies to develop the project, for the sake of easy to understand we divide the course into several stage of development.
 
 Stage -1: We will setup the project by doing the necessary installations and requirements.
-
-Install Python
-
-Install Dependencies
+- Install Python
+- Install Dependencies
 
 Stage -2: We will do data preparation. That is we will extract text from images using Pytesseract and also do necessary cleaning.
 
-Gather Images
-
-Overview on Pytesseract
-
-Extract Text from all Image
-
-Clean and Prepare text
+- Gather Images
+- Overview on Pytesseract
+- Extract Text from all Image
+- Clean and Prepare text
 
 Stage -3: We will see how to label NER data using BIO tagging.
 
-Manually Labeling with BIO technique
-
-B - Beginning
-
-I  -  Inside
-
-O - Outside
+Manually Labeling with BIO technique,
+- **B** - Beginning
+- **I**  -  Inside
+- **O** - Outside
 
 Stage -4: We will further clean the text and preprocess the data for to train machine learning.
-
-Prepare Training Data for Spacy
-
-Convert data into spacy format
+- Prepare Training Data for Spacy
+- Convert data into spacy format
 
 Stage -5: With the preprocess data we will train the Named Entity model.
-
-Configuring NER Model
-
-Train the model
+- Configuring NER Model
+- Train the model
 
 Stage -6: We will predict the entitles using NER and model and create data pipeline for parsing text.
-
-Load Model
-
-Render and Serve with Displacy
-
-Draw Bounding Box on Image
-
-Parse Entitles from Text
+- Load Model
+- Render and Serve with Displacy
+- Draw Bounding Box on Image
+- Parse Entitles from Text
 
 Finally, we will put all together and create document scanner app.
 
